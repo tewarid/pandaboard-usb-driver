@@ -25,9 +25,10 @@ HKR,,Icon,,-1
 [Google.NTx86]
 
 ;OMAP 4 (e.g. PandaBoard)
-%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D00F
-%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D022
-%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D010
+%UsbBootInterface%          = USB_Install, USB\VID_0451&PID_D00F
+%UsbBootInterface%          = USB_Install, USB\VID_0451&PID_D010
+%FastbootInterface%         = USB_Install, USB\VID_0451&PID_D022
+%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D101
 
 ;Google Nexus One
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
@@ -66,9 +67,10 @@ HKR,,Icon,,-1
 [Google.NTamd64]
 
 ;OMAP 4 (e.g. PandaBoard)
-%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D00F
-%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D022
-%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D010
+%UsbBootInterface%          = USB_Install, USB\VID_0451&PID_D00F
+%UsbBootInterface%          = USB_Install, USB\VID_0451&PID_D010
+%FastbootInterface%         = USB_Install, USB\VID_0451&PID_D022
+%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D101
 
 ;Google Nexus One
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
@@ -164,3 +166,5 @@ SingleBootLoaderInterface   = "Android Bootloader Interface"
 WinUSB_SvcDesc              = "Android USB Driver"
 DISK_NAME                   = "Android WinUsb installation disk"
 ClassName                   = "Android Device"
+UsbBootInterface            = "PandaBoard UsbBoot Interface"
+FastbootInterface           = "PandaBoard Fastboot Interface"
