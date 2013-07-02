@@ -29,6 +29,7 @@ HKR,,Icon,,-1
 %UsbBootInterface%          = USB_Install, USB\VID_0451&PID_D010
 %FastbootInterface%         = USB_Install, USB\VID_0451&PID_D022
 %SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D101
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_D002
 
 ;Google Nexus One
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
@@ -71,6 +72,7 @@ HKR,,Icon,,-1
 %UsbBootInterface%          = USB_Install, USB\VID_0451&PID_D010
 %FastbootInterface%         = USB_Install, USB\VID_0451&PID_D022
 %SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D101
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_D002
 
 ;Google Nexus One
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
